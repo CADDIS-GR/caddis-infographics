@@ -258,6 +258,19 @@ section { position:relative; z-index:1; }
   opacity:.5; transition:opacity .2s, transform .2s;
 }
 .ig-card:hover .ig-card-arrow { opacity:1; transform:translateX(3px); }
+.ig-card-log-link {
+  font-family:'DM Mono',monospace; font-size:10px; letter-spacing:.08em;
+  color:var(--water); text-decoration:none;
+  border:1px solid rgba(45,92,80,.25); border-radius:20px;
+  padding:4px 12px;
+  transition:background .2s, border-color .2s, color .2s;
+  white-space:nowrap;
+}
+.ig-card-log-link:hover {
+  background:rgba(45,92,80,.08);
+  border-color:rgba(45,92,80,.5);
+  color:var(--water-lt);
+}
 
 /* ─── ABOUT ─── */
 .about-section { padding:72px 0 64px; }
@@ -432,7 +445,10 @@ footer {
         </div>
         <div class="ig-card-footer">
           <span class="ig-card-tag"># pre-trip · 현장판단 분기</span>
-          <span class="ig-card-arrow">→</span>
+          <a href="https://caddis-gr.github.io/fishing-log/logs/2026-05-16-hanter.html"
+             target="_blank" class="ig-card-log-link" onclick="event.stopPropagation()">
+            📄 조행기 보기
+          </a>
         </div>
       </div>
 
@@ -462,7 +478,10 @@ footer {
         </div>
         <div class="ig-card-footer">
           <span class="ig-card-tag"># tackle-system · 4cut infographic</span>
-          <span class="ig-card-arrow">→</span>
+          <a href="https://caddis-gr.github.io/fishing-log/logs/2026-hanter-tackle-system.html"
+             target="_blank" class="ig-card-log-link" onclick="event.stopPropagation()">
+            📄 조행기 보기
+          </a>
         </div>
       </div>
 
