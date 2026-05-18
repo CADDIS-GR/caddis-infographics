@@ -23,7 +23,8 @@ caddis-infographics/
     └── tackle-system/
         ├── 2026-hanter-tackle-system.png
         ├── 2026-05-16-Pre-hanter.png
-        └── 2026-05-16-hanter-report.png
+        ├── 2026-05-16-hanter-report.png
+        └── MicroNymphingGuideForAutumnTrout.png    🆕
 ```
 
 ---
@@ -37,6 +38,12 @@ caddis-infographics/
 | `2026-hanter-tackle-system.png` | 한터 채비 체계 핵심 요약 — 최근 4회 조행이 알려준 것 | 2026 Spring | [조행기](https://caddis-gr.github.io/fishing-log/logs/2026-hanter-tackle-system.html) |
 | `2026-05-16-Pre-hanter.png` | 헝거게임 — 라스트 찬스 · 번외편, 패자부활전! | 2026.05.16 | [조행기](https://caddis-gr.github.io/fishing-log/logs/2026-05-16-hanter.html) |
 | `2026-05-16-hanter-report.png` | 한터낚시터 번외편 · 4컷 툰 Finale | 2026.05.16 | [조행기](https://caddis-gr.github.io/fishing-log/logs/2026-05-16-hanter-report.html) |
+
+### 새시즌 준비 시리즈 🆕
+
+| 파일 | 제목 | 날짜 | 전략 문서 |
+|------|------|------|-----------|
+| `MicroNymphingGuideForAutumnTrout.png` | 가을 송어 마이크로 님핑 가이드 — 26–27 새시즌 준비 | 2026.05 | [전략 문서](https://caddis-gr.github.io/fishing-technique/stillwater/micro-nymphing/2026-oct-micro-nymphing-strategy.html) |
 
 ---
 
@@ -72,6 +79,16 @@ caddis-infographics/
 
 *이미지 생성: GPT(DALL-E) · 낚시꾼 캐릭터(만화풍) + 말풍선 + 수중 단면도 조합*
 
+### 가을 송어 마이크로 님핑 가이드 (2026.05 · 26–27 새시즌 준비) 🆕
+
+- **컷 1**: 작게 간다 — #14 · #16 · #18, 중심축 #14 라바
+- **컷 2**: Float · Hover · CamoLux 채비 시스템 — 라인별 역할 분담
+- **컷 3**: 수심 탐색 순서 — 1.5m → 2.5m → 3.5m → 4.5m → 5m+, 바닥은 마지막
+- **컷 4**: 변경 우선순위 — 수심 → 위치 → 속도 → 플라이 크기 → 색상
+
+*25-26 시즌 경험을 기반으로 26-27 새시즌을 위해 설계한 전략 인포그래픽*  
+*전략 전체 문서: [10월 Micro Nymphing 전략 설계안](https://caddis-gr.github.io/fishing-technique/stillwater/micro-nymphing/2026-oct-micro-nymphing-strategy.html)*
+
 ---
 
 ## 관련 아카이브
@@ -81,6 +98,16 @@ caddis-infographics/
 | fishing-log | [caddis-gr.github.io/fishing-log](https://caddis-gr.github.io/fishing-log/) | 조행기 |
 | fishing-technique | [caddis-gr.github.io/fishing-technique](https://caddis-gr.github.io/fishing-technique/) | 테크닉 아카이브 |
 | fly-tying-archive | [caddis-gr.github.io/fly-tying-archive](https://caddis-gr.github.io/fly-tying-archive/) | 플라이 타잉 패턴 |
+
+---
+
+## 📅 업데이트 히스토리
+
+| 날짜 | 내용 |
+|------|------|
+| 2026-05 | `MicroNymphingGuideForAutumnTrout.png` 추가 — 가을 송어 마이크로 님핑 가이드 · 새시즌 준비 시리즈 신설 |
+| 2026-05-16 | `2026-05-16-Pre-hanter.png`, `2026-05-16-hanter-report.png` 추가 |
+| 2026-05 | `2026-hanter-tackle-system.png` 추가 · 아카이브 최초 구성 |
 
 ---
 
