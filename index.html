@@ -160,13 +160,14 @@ section { position:relative; z-index:1; }
   font-size:1.4rem; color:var(--ink); letter-spacing:-.02em;
 }
 
-/* ─── 카드 그리드 — 동일 크기 2열 ─── */
+/* ─── 카드 그리드 — 동일 크기 3열 ─── */
 .card-grid {
   display:grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap:24px;
 }
-@media(max-width:720px){ .card-grid{ grid-template-columns:1fr; } }
+@media(max-width:960px){ .card-grid{ grid-template-columns:1fr 1fr; } }
+@media(max-width:600px){ .card-grid{ grid-template-columns:1fr; } }
 
 /* ─── 인포그래픽 카드 (통일 스타일) ─── */
 .ig-card {
@@ -389,7 +390,7 @@ footer {
     </p>
     <div class="hero-stats">
       <div class="hero-stat-item">
-        <span class="hero-stat-num">2</span>
+        <span class="hero-stat-num">3</span>
         <span class="hero-stat-label">Infographics</span>
       </div>
       <div class="hero-stat-sep"></div>
@@ -485,11 +486,38 @@ footer {
         </div>
       </div>
 
-    </div>
-  </div>
-</section>
+      <!-- 카드 C: 2026.05.16 피날레 4컷 툰 -->
+      <div class="ig-card" onclick="openLb(2)">
+        <div class="ig-card-img-wrap">
+          <img src="images/tackle-system/2026-05-16-hanter-report.png" alt="2026.05.16 한터 번외편 피날레 4컷">
+          <span class="ig-card-badge">2026 · 5/16</span>
+          <span class="ig-card-cuts">4컷</span>
+        </div>
+        <div class="ig-card-body">
+          <div class="ig-card-meta">
+            <span>2026.05.16</span>
+            <span class="ig-card-meta-dot"></span>
+            <span>한터낚시터</span>
+            <span class="ig-card-meta-dot"></span>
+            <span>번외편 피날레</span>
+          </div>
+          <div class="ig-card-title">
+            한터낚시터 번외편 · 4컷 툰<br>Finale 🎬
+          </div>
+          <div class="ig-card-desc">
+            인터미디어트도 바텀도 무반응 → 옆 사람 힌트로 흰색 계열+마이크로님핑 발견 → 수심 6m가 아닌 4m였다! → Balanced Leech + DI5 바텀으로 연속 히트. 최종 23수로 시즌 마무리.
+          </div>
+        </div>
+        <div class="ig-card-footer">
+          <span class="ig-card-tag"># post-trip · 피날레</span>
+          <a href="https://caddis-gr.github.io/fishing-log/logs/2026-05-16-hanter-report.html"
+             target="_blank" class="ig-card-log-link" onclick="event.stopPropagation()">
+            📄 조행기 보기
+          </a>
+        </div>
+      </div>
 
-<!-- ─── ABOUT ─── -->
+    </div>
 <section class="about-section" id="sec-about">
   <div class="wrap">
     <div class="section-header">
@@ -549,6 +577,7 @@ footer {
 const LB_ITEMS = [
   { src:'images/tackle-system/2026-hanter-tackle-system.png',  cap:'2026 한터 채비 체계 핵심 요약 · 4컷 인포그래픽' },
   { src:'images/tackle-system/2026-05-16-Pre-hanter.png',      cap:'2026.05.16 헝거게임 — 라스트 찬스 · 번외편 패자부활전' },
+  { src:'images/tackle-system/2026-05-16-hanter-report.png',   cap:'2026.05.16 한터 번외편 피날레 · 23수 시즌 마무리' },
 ];
 let lbIdx = 0;
 function openLb(i) {
