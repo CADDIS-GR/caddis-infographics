@@ -22,7 +22,8 @@ caddis-infographics/
 └── images/
     └── tackle-system/
         ├── 2026-hanter-tackle-system.png
-        └── 2026-05-16-Pre-hanter.png
+        ├── 2026-05-16-Pre-hanter.png
+        └── 2026-05-16-hanter-report.png
 ```
 
 ---
@@ -31,10 +32,11 @@ caddis-infographics/
 
 ### 채비 체계 시리즈
 
-| 파일 | 제목 | 날짜 | 비고 |
-|------|------|------|------|
-| `2026-hanter-tackle-system.png` | 한터 채비 체계 핵심 요약 — 최근 4회 조행이 알려준 것 | 2026 Spring | 채비 체계 총정리 |
-| `2026-05-16-Pre-hanter.png` | 헝거게임 — 라스트 찬스 · 번외편, 패자부활전! | 2026.05.16 | 출조 전 플랜 인포그래픽 |
+| 파일 | 제목 | 날짜 | 조행기 링크 |
+|------|------|------|-------------|
+| `2026-hanter-tackle-system.png` | 한터 채비 체계 핵심 요약 — 최근 4회 조행이 알려준 것 | 2026 Spring | [조행기](https://caddis-gr.github.io/fishing-log/logs/2026-hanter-tackle-system.html) |
+| `2026-05-16-Pre-hanter.png` | 헝거게임 — 라스트 찬스 · 번외편, 패자부활전! | 2026.05.16 | [조행기](https://caddis-gr.github.io/fishing-log/logs/2026-05-16-hanter.html) |
+| `2026-05-16-hanter-report.png` | 한터낚시터 번외편 · 4컷 툰 Finale | 2026.05.16 | [조행기](https://caddis-gr.github.io/fishing-log/logs/2026-05-16-hanter-report.html) |
 
 ---
 
@@ -58,6 +60,15 @@ caddis-infographics/
 - **컷 2**: 4채비로 전 수층 커버 — 바텀 DI5 / 중하층 CamoLux / 마이크로님핑 HELIX / 인디케이터 6m
 - **컷 3**: 현장 판단 분기 — 새벽 피딩이면 CamoLux, 해 뜨면 DI5 바텀, 애매하면 인디케이터+HELIX
 - **컷 4**: 잘 되면 새로운 무기, 안 되면 데이터다 — 패자부활전 시작!
+
+*이미지 생성: GPT(DALL-E) · 낚시꾼 캐릭터(만화풍) + 말풍선 + 수중 단면도 조합*
+
+### 한터낚시터 번외편 · 피날레 (2026.05.16 Post-Trip)
+
+- **컷 1**: 번외전 출조 — 인터미디어트도 바텀도 무반응, 아침부터 쎄~하다
+- **컷 2**: 컨닝 성공 — 옆 사람 힌트 포착! 흰색 계열 + 마이크로님핑으로 반응 살아난다
+- **컷 3**: 범인은 수심이었다 — 6m인 줄 알았더니 실측 4m! 인디케이터 수심 수정 후 꾸준히 적중
+- **컷 4**: 피날레 완성 — Balanced Leech + DI5 바텀으로 연속 히트, 최종 23수 시즌 마무리
 
 *이미지 생성: GPT(DALL-E) · 낚시꾼 캐릭터(만화풍) + 말풍선 + 수중 단면도 조합*
 
