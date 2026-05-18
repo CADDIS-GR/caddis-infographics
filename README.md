@@ -21,7 +21,8 @@ caddis-infographics/
 ├── README.md
 └── images/
     └── tackle-system/
-        └── 2026-hanter-tackle-system-4cut.png
+        ├── 2026-hanter-tackle-system.png
+        └── 2026-05-16-Pre-hanter.png
 ```
 
 ---
@@ -32,7 +33,8 @@ caddis-infographics/
 
 | 파일 | 제목 | 날짜 | 비고 |
 |------|------|------|------|
-| `2026-hanter-tackle-system-4cut.png` | 한터 채비 체계 핵심 요약 — 최근 4회 조행이 알려준 것 | 2026 Spring | 첫 번째 인포그래픽 |
+| `2026-hanter-tackle-system.png` | 한터 채비 체계 핵심 요약 — 최근 4회 조행이 알려준 것 | 2026 Spring | 채비 체계 총정리 |
+| `2026-05-16-Pre-hanter.png` | 헝거게임 — 라스트 찬스 · 번외편, 패자부활전! | 2026.05.16 | 출조 전 플랜 인포그래픽 |
 
 ---
 
@@ -47,6 +49,15 @@ caddis-infographics/
   - ① 바텀권 풀싱킹
   - ② 플로팅 롱리더 마이크로님핑
   - ③ 바텀 수심고정 인디케이터
+
+*이미지 생성: GPT(DALL-E) · 낚시꾼 캐릭터(만화풍) + 말풍선 + 수중 단면도 조합*
+
+### 헝거게임 — 라스트 찬스 (2026.05.16 Pre-Trip)
+
+- **컷 1**: 시즌 종료 선언했지만… 내가 만든 번외전
+- **컷 2**: 4채비로 전 수층 커버 — 바텀 DI5 / 중하층 CamoLux / 마이크로님핑 HELIX / 인디케이터 6m
+- **컷 3**: 현장 판단 분기 — 새벽 피딩이면 CamoLux, 해 뜨면 DI5 바텀, 애매하면 인디케이터+HELIX
+- **컷 4**: 잘 되면 새로운 무기, 안 되면 데이터다 — 패자부활전 시작!
 
 *이미지 생성: GPT(DALL-E) · 낚시꾼 캐릭터(만화풍) + 말풍선 + 수중 단면도 조합*
 
