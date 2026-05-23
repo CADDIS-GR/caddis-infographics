@@ -20,11 +20,15 @@ caddis-infographics/
 ├── index.html                        # 메인 갤러리 페이지 (GitHub Pages)
 ├── README.md
 └── images/
-    └── tackle-system/
-        ├── 2026-hanter-tackle-system.png
-        ├── 2026-05-16-Pre-hanter.png
-        ├── 2026-05-16-hanter-report.png
-        └── MicroNymphingGuideForAutumnTrout.png    🆕
+    ├── tackle-system/
+    │   ├── 2026-hanter-tackle-system.png
+    │   ├── 2026-05-16-Pre-hanter.png
+    │   ├── 2026-05-16-hanter-report.png
+    │   └── MicroNymphingGuideForAutumnTrout.png
+    └── card/                                       🆕
+        ├── 0523-BalancedLeech-en.png
+        ├── 0523-BalancedLeech-kr.png
+        └── 0523-BalancedLeech-kr02.png
 ```
 
 ---
@@ -39,11 +43,19 @@ caddis-infographics/
 | `2026-05-16-Pre-hanter.png` | 헝거게임 — 라스트 찬스 · 번외편, 패자부활전! | 2026.05.16 | [조행기](https://caddis-gr.github.io/fishing-log/logs/2026-05-16-hanter.html) |
 | `2026-05-16-hanter-report.png` | 한터낚시터 번외편 · 4컷 툰 Finale | 2026.05.16 | [조행기](https://caddis-gr.github.io/fishing-log/logs/2026-05-16-hanter-report.html) |
 
-### 새시즌 준비 시리즈 🆕
+### 새시즌 준비 시리즈
 
 | 파일 | 제목 | 날짜 | 전략 문서 |
 |------|------|------|-----------|
 | `MicroNymphingGuideForAutumnTrout.png` | 가을 송어 마이크로 님핑 가이드 — 26–27 새시즌 준비 | 2026.05 | [전략 문서](https://caddis-gr.github.io/fishing-technique/stillwater/micro-nymphing/2026-oct-micro-nymphing-strategy.html) |
+
+### 플라이 타잉 시리즈 🆕
+
+| 파일 | 제목 | 날짜 |
+|------|------|------|
+| `card/0523-BalancedLeech-en.png` | Micro Balanced Leech — Small but Mighty (영문) | 2026.05.23 |
+| `card/0523-BalancedLeech-kr.png` | 마이크로 밸런스드 리치 — 작지만 강하다 (한국어 v1) | 2026.05.23 |
+| `card/0523-BalancedLeech-kr02.png` | 마이크로 밸런스드 리치 — 상세 스펙 버전 (한국어 v2) | 2026.05.23 |
 
 ---
 
@@ -79,7 +91,7 @@ caddis-infographics/
 
 *이미지 생성: GPT(DALL-E) · 낚시꾼 캐릭터(만화풍) + 말풍선 + 수중 단면도 조합*
 
-### 가을 송어 마이크로 님핑 가이드 (2026.05 · 26–27 새시즌 준비) 🆕
+### 가을 송어 마이크로 님핑 가이드 (2026.05 · 26–27 새시즌 준비)
 
 - **컷 1**: 작게 간다 — #14 · #16 · #18, 중심축 #14 라바
 - **컷 2**: Float · Hover · CamoLux 채비 시스템 — 라인별 역할 분담
@@ -88,6 +100,16 @@ caddis-infographics/
 
 *25-26 시즌 경험을 기반으로 26-27 새시즌을 위해 설계한 전략 인포그래픽*  
 *전략 전체 문서: [10월 Micro Nymphing 전략 설계안](https://caddis-gr.github.io/fishing-technique/stillwater/micro-nymphing/2026-oct-micro-nymphing-strategy.html)*
+
+### 마이크로 밸런스드 리치 카드 시리즈 (2026.05.23) 🆕
+
+- **훅**: DOHIKU #16
+- **비드**: Orange Bead 3.0mm (Egg-Sucking Leech 스타일 헤드)
+- **바디**: 블랙 + 플래시 (실루엣과 미세 어필)
+- **핵심**: #16 사이즈에서 수평 밸런스 세팅 성공 — 티펫을 걸었을 때 수평 유지 확인
+- **권장 운용**: 인디케이터 채비 / 정지·슬로우 운용
+
+영문(en) · 한국어 v1(kr) · 한국어 v2 상세 스펙(kr02) 3종 세트로 구성.
 
 ---
 
@@ -105,6 +127,7 @@ caddis-infographics/
 
 | 날짜 | 내용 |
 |------|------|
+| 2026-05-23 | `card/0523-BalancedLeech-en.png` 외 2종 추가 — 마이크로 밸런스드 리치 카드 시리즈 · 플라이 타잉 시리즈 신설 |
 | 2026-05 | `MicroNymphingGuideForAutumnTrout.png` 추가 — 가을 송어 마이크로 님핑 가이드 · 새시즌 준비 시리즈 신설 |
 | 2026-05-16 | `2026-05-16-Pre-hanter.png`, `2026-05-16-hanter-report.png` 추가 |
 | 2026-05 | `2026-hanter-tackle-system.png` 추가 · 아카이브 최초 구성 |
