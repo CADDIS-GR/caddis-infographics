@@ -392,7 +392,7 @@ footer {
     </p>
     <div class="hero-stats">
       <div class="hero-stat-item">
-        <span class="hero-stat-num">7</span>
+        <span class="hero-stat-num">10</span>
         <span class="hero-stat-label">Infographics</span>
       </div>
       <div class="hero-stat-sep"></div>
@@ -677,6 +677,96 @@ footer {
         </div>
       </div>
 
+      <!-- 카드 H: 키로노미드 메인 카드 -->
+      <div class="ig-card" onclick="openLb(7)">
+        <div class="ig-card-img-wrap">
+          <img src="images/card/0525-chironomid-card.png" alt="키로노미드 메인 카드">
+          <span class="ig-card-badge">2026 · 5/25</span>
+          <span class="ig-card-cuts">카드</span>
+        </div>
+        <div class="ig-card-body">
+          <div class="ig-card-meta">
+            <span>2026.05.25</span>
+            <span class="ig-card-meta-dot"></span>
+            <span>플라이 타잉</span>
+            <span class="ig-card-meta-dot"></span>
+            <span>Chironomid</span>
+          </div>
+          <div class="ig-card-title">
+            키로노미드<br>— 한터 핵심 패턴
+          </div>
+          <div class="ig-card-desc">
+            한터낚시터 6m 수층을 공략하는 키로노미드 패턴 카드.
+            Daiichi 1760 #14 훅 기반, FL 소재를 활용한
+            UV 레이어링 전략의 핵심을 담은 메인 카드.
+          </div>
+        </div>
+        <div class="ig-card-footer">
+          <span class="ig-card-tag"># chironomid · Daiichi 1760 · FL</span>
+          <span class="ig-card-arrow">→</span>
+        </div>
+      </div>
+
+      <!-- 카드 I: 키로노미드 상세 스펙 -->
+      <div class="ig-card" onclick="openLb(8)">
+        <div class="ig-card-img-wrap">
+          <img src="images/card/0525-chironomid-detail.png" alt="키로노미드 상세 스펙 카드">
+          <span class="ig-card-badge">2026 · 5/25</span>
+          <span class="ig-card-cuts">카드</span>
+        </div>
+        <div class="ig-card-body">
+          <div class="ig-card-meta">
+            <span>2026.05.25</span>
+            <span class="ig-card-meta-dot"></span>
+            <span>플라이 타잉</span>
+            <span class="ig-card-meta-dot"></span>
+            <span>Chironomid Detail</span>
+          </div>
+          <div class="ig-card-title">
+            키로노미드 상세 스펙<br>— UV 레이어링 전략
+          </div>
+          <div class="ig-card-desc">
+            FL Red 언더바디 + 표준 레드 오버랩, 화이트 버전은
+            Globrite + GSP 50D 스파스-투-덴스 권사로 불균일 UV 발광.
+            6m 수층에서도 FL 소재가 색을 유지하는 원리까지 담은 상세 카드.
+          </div>
+        </div>
+        <div class="ig-card-footer">
+          <span class="ig-card-tag"># chironomid · FL-red · UV-layering</span>
+          <span class="ig-card-arrow">→</span>
+        </div>
+      </div>
+
+      <!-- 카드 J: 키로노미드 화이트 버전 -->
+      <div class="ig-card" onclick="openLb(9)">
+        <div class="ig-card-img-wrap">
+          <img src="images/card/0525-chironomid-white.png" alt="키로노미드 화이트 버전 카드">
+          <span class="ig-card-badge">2026 · 5/25</span>
+          <span class="ig-card-cuts">카드</span>
+        </div>
+        <div class="ig-card-body">
+          <div class="ig-card-meta">
+            <span>2026.05.25</span>
+            <span class="ig-card-meta-dot"></span>
+            <span>플라이 타잉</span>
+            <span class="ig-card-meta-dot"></span>
+            <span>Chironomid White</span>
+          </div>
+          <div class="ig-card-title">
+            키로노미드 화이트 버전<br>— Globrite + GSP 50D
+          </div>
+          <div class="ig-card-desc">
+            화이트 키로노미드 전용 카드. Globrite + GSP 50D를
+            스파스-투-덴스로 권사해 불균일 UV 발광을 구현.
+            5/16 번외편에서 흰색 계열로 반응을 살린 그 패턴.
+          </div>
+        </div>
+        <div class="ig-card-footer">
+          <span class="ig-card-tag"># chironomid · white · Globrite · GSP50D</span>
+          <span class="ig-card-arrow">→</span>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
@@ -745,6 +835,9 @@ const LB_ITEMS = [
   { src:'images/card/0523-BalancedLeech-en.png',                    cap:'Micro Balanced Leech · DOHIKU #16 · 영문 카드' },
   { src:'images/card/0523-BalancedLeech-kr.png',                    cap:'마이크로 밸런스드 리치 · 한국어 카드 v1' },
   { src:'images/card/0523-BalancedLeech-kr02.png',                  cap:'마이크로 밸런스드 리치 · 한국어 카드 v2 상세 스펙' },
+  { src:'images/card/0525-chironomid-card.png',                     cap:'키로노미드 · Daiichi 1760 #14 · FL UV 레이어링 · 메인 카드' },
+  { src:'images/card/0525-chironomid-detail.png',                   cap:'키로노미드 상세 스펙 · UV 레이어링 전략 · 2026.05.25' },
+  { src:'images/card/0525-chironomid-white.png',                    cap:'키로노미드 화이트 버전 · Globrite + GSP 50D · 불균일 UV 발광' },
 ];
 let lbIdx = 0;
 function openLb(i) {

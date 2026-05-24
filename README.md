@@ -28,7 +28,10 @@ caddis-infographics/
     └── card/                                       🆕
         ├── 0523-BalancedLeech-en.png
         ├── 0523-BalancedLeech-kr.png
-        └── 0523-BalancedLeech-kr02.png
+        ├── 0523-BalancedLeech-kr02.png
+        ├── 0525-chironomid-card.png               🆕
+        ├── 0525-chironomid-detail.png             🆕
+        └── 0525-chironomid-white.png              🆕
 ```
 
 ---
@@ -56,6 +59,9 @@ caddis-infographics/
 | `card/0523-BalancedLeech-en.png` | Micro Balanced Leech — Small but Mighty (영문) | 2026.05.23 |
 | `card/0523-BalancedLeech-kr.png` | 마이크로 밸런스드 리치 — 작지만 강하다 (한국어 v1) | 2026.05.23 |
 | `card/0523-BalancedLeech-kr02.png` | 마이크로 밸런스드 리치 — 상세 스펙 버전 (한국어 v2) | 2026.05.23 |
+| `card/0525-chironomid-card.png` | 키로노미드 — 한터 핵심 패턴 (메인 카드) | 2026.05.25 | 🆕
+| `card/0525-chironomid-detail.png` | 키로노미드 상세 스펙 — UV 레이어링 전략 | 2026.05.25 | 🆕
+| `card/0525-chironomid-white.png` | 키로노미드 화이트 버전 — Globrite + GSP 50D | 2026.05.25 | 🆕
 
 ---
 
@@ -111,9 +117,17 @@ caddis-infographics/
 
 영문(en) · 한국어 v1(kr) · 한국어 v2 상세 스펙(kr02) 3종 세트로 구성.
 
----
+### 키로노미드 카드 시리즈 (2026.05.25) 🆕
 
-## 관련 아카이브
+- **훅**: Daiichi 1760 #14
+- **UV 레이어링**: FL Red 언더바디 + 표준 레드 오버랩으로 6m 수층에서도 붉은 색상 유지
+- **화이트 버전**: Globrite + GSP 50D 스파스-투-덴스 권사 → 불균일 UV 발광으로 미세 어필
+- **핵심 원리**: FL 소재는 UV를 흡수해 가시광으로 재방출 → 6m DOM 환경에서도 색이 살아있음
+- **운용**: 키로노미드 라바·퓨파 계열, 수층 전반 (인디케이터 / 싱킹라인 병행)
+
+메인 카드(card) · 상세 스펙(detail) · 화이트 버전(white) 3종 세트.
+
+---
 
 | 레포 | URL | 내용 |
 |------|-----|------|
@@ -127,6 +141,7 @@ caddis-infographics/
 
 | 날짜 | 내용 |
 |------|------|
+| 2026-05-25 | `card/0525-chironomid-card.png` 외 2종 추가 — 키로노미드 카드 시리즈 3종 (메인·상세·화이트) |
 | 2026-05-23 | `card/0523-BalancedLeech-en.png` 외 2종 추가 — 마이크로 밸런스드 리치 카드 시리즈 · 플라이 타잉 시리즈 신설 |
 | 2026-05 | `MicroNymphingGuideForAutumnTrout.png` 추가 — 가을 송어 마이크로 님핑 가이드 · 새시즌 준비 시리즈 신설 |
 | 2026-05-16 | `2026-05-16-Pre-hanter.png`, `2026-05-16-hanter-report.png` 추가 |
